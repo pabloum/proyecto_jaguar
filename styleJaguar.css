@@ -1,0 +1,33 @@
+
+body{
+  background: url("jaguar-xe.jpg") center fixed;
+  background-size: cover;
+}
+
+div.contenedor {
+  border-radius: 7.5px;
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  right: 40px;
+}
+
+div.texto {
+  margin: 40px 40px;
+  color: white;
+  font-family: Roboto;
+}
+
+input[type=submit]{
+  background: #DB3030;
+  color: white;
+  padding: 5px 30px;
+  margin: 0px 40px 20px;
+}
+
+@media (min-width: 600px){
+  div.contenedor {
+    width: 600px;
+  }
+}
